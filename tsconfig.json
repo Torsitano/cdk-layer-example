@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "esModuleInterop": true,
+        "target": "ES2019",
+        "module": "commonjs",
+        "lib": [
+            "es2019"
+        ],
+        "resolveJsonModule": true,
+        "noEmitOnError": true,
+        "declaration": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": true,
+        "stripInternal": true,
+        "outDir": "./dist",
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/"
+    ],
+    "exclude": [
+        "node_modules",
+        "cdk.out"
+    ]
+}
