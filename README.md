@@ -13,5 +13,7 @@ cdk deploy
 tsc
 ```
 
+Install the package using:
+```shell
 npm i git+ssh://git@github.com:Torsitano/cdk-layer-example
-npm i git+https://git@github.com:Torsitano/cdk-layer-example
+```
