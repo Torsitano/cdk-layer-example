@@ -1,4 +1,3 @@
-!jest.config.js
 node_modules
 !dist/layer/nodejs/node_modules
 
