@@ -17,6 +17,5 @@ export class CdkLayerExampleStack extends Stack {
                 Architecture.X86_64
             ]
         })
-        
     }
 }
