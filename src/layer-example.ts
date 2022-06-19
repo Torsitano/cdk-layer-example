@@ -50,7 +50,7 @@ export class S3Example {
     client: S3Client
 
     constructor( region: string, sessionCredentials?: Credentials ) {
-        this.client = setupClient(region, S3Client ,sessionCredentials)
+        this.client = setupClient(region, S3Client, sessionCredentials)
     }
 
     async getAllBucketNames(): Promise<string[]> {
@@ -74,7 +74,7 @@ export class StsExample {
     client: STSClient
 
     constructor( region: string, sessionCredentials?: Credentials ) {
-        this.client = setupClient(region, STSClient ,sessionCredentials)
+        this.client = setupClient(region, STSClient, sessionCredentials)
     }
 
     async getSessionCredentials( roleName: string, awsAccount: string, sessionName: string): Promise<Credentials> {
