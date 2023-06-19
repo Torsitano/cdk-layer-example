@@ -21,7 +21,7 @@
         "@aws-sdk/client-s3": "^3.107.0",
         "@aws-sdk/client-sts": "^3.105.0",
         "@aws-sdk/middleware-retry": "^3.110.0",
-        "aws-cdk-lib": "^2.28.1",
+        "aws-cdk-lib": "^2.80.0",
         "constructs": "^10.0.0",
         "source-map-support": "^0.5.21"
     }
